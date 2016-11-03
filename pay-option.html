@@ -1,0 +1,209 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>customer_service</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<script src="js/jquery.min.js"></script>
+		<!----start-alert-scroller---->
+		<script type="text/javascript" src="js/jquery.easy-ticker.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#demo').hide();
+			$('.vticker').easyTicker();
+		});
+		</script>
+		<!----start-alert-scroller---->
+		<!-- start menu -->
+		<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+		<script type="text/javascript" src="js/megamenu.js"></script>
+		<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+		<script src="js/menu_jquery.js"></script>
+		<!-- //End menu -->
+		<!---move-top-top---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<!---//move-top-top---->
+	</head>
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="top-header">
+					<div class="wrap">
+						<div class="top-header-left">
+							<ul>
+								<!---cart-tonggle-script---->
+								<script type="text/javascript">
+									$(function(){
+									    var $cart = $('#cart');
+									        $('#clickme').click(function(e) {
+									         e.stopPropagation();
+									       if ($cart.is(":hidden")) {
+									           $cart.slideDown("slow");
+									       } else {
+									           $cart.slideUp("slow");
+									       }
+									    });
+									    $(document.body).click(function () {
+									       if ($cart.not(":hidden")) {
+									           $cart.slideUp("slow");
+									       } 
+									    });
+									    });
+								</script>
+								<!---//cart-tonggle-script---->
+								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
+								<!---start-cart-bag---->
+								<div id="cart">Your Cart is Empty <span>(0)</span></div>
+								<!---start-cart-bag---->
+								<li><a class="info" href="#"><span> </span></a></li>
+                                 <li><a class="order" href="#"><span> </span></a></li>
+							</ul>
+						</div>
+						<div class="top-header-center">
+							<div class="top-header-center-alert-left">
+								<h3>知识就是力量！！！</h3>
+							</div>
+							<div class="top-header-center-alert-right">
+								<div class="vticker">
+								  <ul>
+									 <li>满50元包邮 <label>全场满99-10元</label></li>
+								  </ul>
+								</div>
+							</div>
+	
+						</div>
+						<div class="top-header-right">
+							<ul>
+								<li><a href="login.html">登录</a><span> </span></li>
+								<li><a href="register.html">注册</a></li>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!----start-mid-head---->
+				<div class="mid-header">
+					<div class="wrap">
+						<div class="mid-grid-left">
+							<form class="address-area-select">
+								<input type="text" placeholder="搜索全部的超过10万本图书" />
+							</form>
+                            <a class="searching" href="#"><span></span></a>
+						</div>
+						<div class="mid-grid-right">
+							<a class="logo" href="index.html"><span> </span></a>
+						</div>
+						<div class="clear"> </div>  <hr  style="position: absolute; left: 0px; width: 100%; top: 139px;"/>
+					</div>
+				</div>
+				<!----//End-mid-head---->
+				<!----start-bottom-header---->
+				<div class="header-bottom">
+					<div class="wrap">
+					<!-- start header menu -->
+							<ul class="megamenu skyblue">
+								<li class="grid"><a class="color2" href="#">热门小说</a></li>
+					  			<li class="active grid"><a class="color4" href="#">儿童读物</a></li>				
+									<li><a class="color5" href="#">生活百科</a></li>
+									<li><a class="color6" href="#">科学世界</a></li>
+									<li><a class="color7" href="#">历史纵横</a></li>
+									<li><a class="color8" href="#">文学</a>
+									
+									</li>
+							</ul>
+
+					</div>
+				</div>
+				</div><!----//End-bottom-header---->
+			<!---//End-header---->
+		<!--- start-content---->
+	<div class="content contact-main">
+			<!----start-contact---->
+			<div class="contact-info">
+            <div class="wrap">
+            <h1 style="font-size:36px; text-align:center; font-weight:bold;display:block;margin: 0 auto;width:700px">有书网购书支付方式</h1>
+            <pre style="display:block">
+        支付宝网银支付：
+它是一种基于支付宝平台的网上银行在线支付方式，您可使用各网上银行（中国工商银行、中国建设银行、中国农业银行、中国银行、交通银行、招商银行、中国光大银
+行、中银银行、深圳发展银行、浦发银行、中国民生银行、兴业银行、广东发展银行、杭州银行），在此平台上进行支付，支付后我们会与该平台进行货款统一结算；请
+您放心使用。由于各银行政策不同，建议您在申请网上银行支付功能时向银行咨询相关事宜。
+	支付宝支付：
+我们采用支付宝即时到账交易(非支付宝信用中介服务，快速)，在您付款后，货款将立刻进入我们的账户，交易快速完成，请您放心使用。
+支付宝24小时服务热线：0571-88156688
+	财付通支付：
+我们采用财付通即时到账交易，在您付款后，货款将立刻进入我们的账户，交易快速完成，请您放心使用。
+财付通服务热线：0755 – 86013337
+	银联电子支付：
+我们为您提供：
+银联电子支付
+它是一种基于银联电子支付平台的银联在线支付方式，您可使用带有各种银联标识的银行卡在此平台上进行在线支付，支付后我们会与该平台进行货款统一结算，请您放心使用。
+银联在线24小时客服电话：4006228888-6
+	手机支付：
+我们为您提供：
+手机支付
+拥有中国移动手机支付功能的用户，可选择此支付方式，它是一种在线支付方式，请您放心使用。具体使用方法请参见《中国移动手机支付商家帮助中心介绍文档》。
+	支付宝钱包支付：
+我们为您提供：
+支付宝钱包支付
+支付宝钱包是国内领先的移动支付平台，采用即时到账交易(非支付宝信用中介服务，快速)，在您付款后，货款将立刻进入我们的账户，交易快速完成，请您放心使用。
+支付宝24小时服务热线：0571-88156688</pre>
+            </div>
+            </div>
+			<!----//End-contact---->
+		</div>
+		<!---- start-bottom-grids---->
+        <div class="bottom-grids">
+			<div class="bottom-top-grids">
+				<div class="wrap">
+					<div class="bottom-top-grid">
+						<h4>获取帮助</h4>
+						<ul>
+							<li><a href="contact.html">联系我们</a></li>
+							<li><a href="discount-info.html">折扣信息</a></li>
+							<li><a href="customer_service.html">售后服务</a></li>
+							
+						</ul>
+					</div>
+					<div class="bottom-top-grid">
+						<h4>订单选项&amp;需知</h4>
+						<ul>
+							<li><a href="pay-option.html">支付选项</a></li>
+                            <li><a href="shipping.html">邮寄方式</a></li>
+							<li><a href="return.html">退换货</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid last-bottom-top-grid">
+						<h4>注册</h4>
+						<p>注册一个新的账户，获取最新，最全的图书购物体验。</p>
+						<a class="learn-more" href="#">获取更多详情</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			
+		</div><!---- //End-bottom-grids---->
+		<!--- //End-content---->
+		<!---start-footer---->
+		
+		<!---//End-footer---->
+		<!---//End-wrap---->
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+

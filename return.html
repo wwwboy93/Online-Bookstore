@@ -1,0 +1,190 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>return</title>
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!----webfonts---->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<!----//webfonts---->
+		<script src="js/jquery.min.js"></script>
+		<!----start-alert-scroller---->
+		<script type="text/javascript" src="js/jquery.easy-ticker.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			$('#demo').hide();
+			$('.vticker').easyTicker();
+		});
+		</script>
+		<!----start-alert-scroller---->
+		<!-- start menu -->
+		<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+		<script type="text/javascript" src="js/megamenu.js"></script>
+		<script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+		<script src="js/menu_jquery.js"></script>
+		<!-- //End menu -->
+		<!---move-top-top---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+				});
+			});
+		</script>
+		<!---//move-top-top---->
+	</head>
+	<body>
+		<!---start-wrap---->
+			<!---start-header---->
+			<div class="header">
+				<div class="top-header">
+					<div class="wrap">
+						<div class="top-header-left">
+							<ul>
+								<!---cart-tonggle-script---->
+								<script type="text/javascript">
+									$(function(){
+									    var $cart = $('#cart');
+									        $('#clickme').click(function(e) {
+									         e.stopPropagation();
+									       if ($cart.is(":hidden")) {
+									           $cart.slideDown("slow");
+									       } else {
+									           $cart.slideUp("slow");
+									       }
+									    });
+									    $(document.body).click(function () {
+									       if ($cart.not(":hidden")) {
+									           $cart.slideUp("slow");
+									       } 
+									    });
+									    });
+								</script>
+								<!---//cart-tonggle-script---->
+								<li><a class="cart" href="#"><span id="clickme"> </span></a></li>
+								<!---start-cart-bag---->
+								<div id="cart">Your Cart is Empty <span>(0)</span></div>
+								<!---start-cart-bag---->
+								<li><a class="info" href="#"><span> </span></a></li>
+                                 <li><a class="order" href="#"><span> </span></a></li>
+							</ul>
+						</div>
+						<div class="top-header-center">
+							<div class="top-header-center-alert-left">
+								<h3>知识就是力量！！！</h3>
+							</div>
+							<div class="top-header-center-alert-right">
+								<div class="vticker">
+								  <ul>
+									 <li>满50元包邮 <label>全场满99-10元</label></li>
+								  </ul>
+								</div>
+							</div>
+	
+						</div>
+						<div class="top-header-right">
+							<ul>
+								<li><a href="login.html">登录</a><span> </span></li>
+								<li><a href="register.html">注册</a></li>
+							</ul>
+						</div>
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<!----start-mid-head---->
+				<div class="mid-header">
+					<div class="wrap">
+						<div class="mid-grid-left">
+							<form class="address-area-select">
+								<input type="text" placeholder="搜索全部的超过10万本图书" />
+							</form>
+                            <a class="searching" href="#"><span></span></a>
+						</div>
+						<div class="mid-grid-right">
+							<a class="logo" href="index.html"><span> </span></a>
+						</div>
+						<div class="clear"> </div>  <hr  style="position: absolute; left: 0px; width: 100%; top: 139px;"/>
+					</div>
+				</div>
+				<!----//End-mid-head---->
+				<!----start-bottom-header---->
+				<div class="header-bottom">
+					<div class="wrap">
+					<!-- start header menu -->
+							<ul class="megamenu skyblue">
+								<li class="grid"><a class="color2" href="#">热门小说</a></li>
+					  			<li class="active grid"><a class="color4" href="#">儿童读物</a></li>				
+									<li><a class="color5" href="#">生活百科</a></li>
+									<li><a class="color6" href="#">科学世界</a></li>
+									<li><a class="color7" href="#">历史纵横</a></li>
+									<li><a class="color8" href="#">文学</a>
+									
+									</li>
+							</ul>
+
+					</div>
+				</div>
+				</div><!----//End-bottom-header---->
+			<!---//End-header---->
+		<!--- start-content---->
+	<div class="content contact-main">
+			<!----start-contact---->
+			<div class="contact-info">
+            <div class="wrap">
+            <h1 style="font-size:36px; text-align:center; font-weight:bold;display:block;margin: 0 auto;width:700px">有书网购书退换货办法</h1>
+            <pre style="display:block;margin-top:10px">
+    本店为您提供便捷的退/换货服务，您可以拨打我们服务热线400-702-0808或在我的账户>订单管理>帮助服务 里进行申请，
+    我们将及时审核您提供的退、换货依据并回复您办理方式。
+    需要退换货商品客户可以通过邮局平邮(挂号印刷品、普通包裹)或普通快递(不含EMS、顺丰，限时送达快递、到付)方式退回。
+    退换货邮寄地址1：四川省成都市青白江区通汇大道6号四川文传物流有限公司3号库 文轩网(收)  邮编：610300 电话：400-702-0808
+    退换货邮寄地址2：北京市大兴区西红门镇宏福东路甲1号 文轩网北京物流中心 收 邮编：102600 电话：400-702-0808</pre>
+            </div>
+            </div>
+			<!----//End-contact---->
+		</div>
+		<!---- start-bottom-grids---->
+        <div class="bottom-grids">
+			<div class="bottom-top-grids">
+				<div class="wrap">
+					<div class="bottom-top-grid">
+						<h4>获取帮助</h4>
+						<ul>
+							<li><a href="contact.html">联系我们</a></li>
+							<li><a href="discount-info.html">折扣信息</a></li>
+							<li><a href="customer_service.html">售后服务</a></li>
+							
+						</ul>
+					</div>
+					<div class="bottom-top-grid">
+						<h4>订单选项&amp;需知</h4>
+						<ul>
+							<li><a href="pay-option.html">支付选项</a></li>
+                            <li><a href="shipping.html">邮寄方式</a></li>
+							<li><a href="return.html">退换货</a></li>
+						</ul>
+					</div>
+					<div class="bottom-top-grid last-bottom-top-grid">
+						<h4>注册</h4>
+						<p>注册一个新的账户，获取最新，最全的图书购物体验。</p>
+						<a class="learn-more" href="#">获取更多详情</a>
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</div>
+			
+		</div><!---- //End-bottom-grids---->
+		<!--- //End-content---->
+		<!---start-footer---->
+		
+		<!---//End-footer---->
+		<!---//End-wrap---->
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+
