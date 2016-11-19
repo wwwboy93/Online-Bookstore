@@ -26,7 +26,7 @@ Visual Studio 2012. SQLServer 2008.
 Cheng Li, Han Yin, Kaibo Ju, Yuhao Fu, Subo Zhuang, Tianlang Qin, Xirui Feng, Zhen xia
 
 
-## License
+## Authorization
 
-This project is licensed under the GNU License
+People who want use this for commerce interest must acquire authorization first.
 
